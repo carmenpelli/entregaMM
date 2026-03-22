@@ -1,0 +1,11 @@
+# Trayectorias GROMACS
+*.trr *.xtc
+# Outputs grandes
+*.edr *.log *.cpt
+# Datos de análisis
+*.xvg
+# Carpetas opcionales pesadas
+opcional/
+# Basura típica
+*.tmp *.out *.err
+__pycache__/

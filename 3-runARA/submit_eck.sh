@@ -1,0 +1,12 @@
+#!/bin/bash
+#
+#SBATCH -p eck-q
+#SBATCH --chdir=/home/alumno18/MM/entregaMM/3-runARA
+#SBATCH -J equilibrado
+#SBATCH --cpus-per-task=1
+
+date
+gmx mdrun -deffnm ara -c ara.g96 -nt 1
+date
+
+

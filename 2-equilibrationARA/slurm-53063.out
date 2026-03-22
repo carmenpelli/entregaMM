@@ -1,0 +1,68 @@
+jue feb  5 19:19:51 CET 2026
+                      :-) GROMACS - gmx mdrun, 2016.4 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov  Herman J.C. Berendsen    Par Bjelkmar   
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra    Gerrit Groenhof  
+ Christoph Junghans   Anca Hamuraru    Vincent Hindriksen Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul   Magnus Lundborg   Pieter Meulenhoff    Erik Marklund   
+   Teemu Murtola       Szilard Pall       Sander Pronk      Roland Schulz   
+  Alexey Shvetsov     Michael Shirts     Alfons Sijbers     Peter Tieleman  
+  Teemu Virolainen  Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2017, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx mdrun, version 2016.4
+Executable:   /usr/local/gromacs/bin/gmx
+Data prefix:  /usr/local/gromacs
+Working dir:  /home/alumno18/MM/entregaMM/2-equilibrationARA
+Command line:
+  gmx mdrun -deffnm ara -c ara.g96 -nt 1
+
+
+Running on 1 node with total 32 cores, 64 logical cores
+Hardware detected:
+  CPU info:
+    Vendor: Intel
+    Brand:  Intel(R) Xeon(R) Gold 6226R CPU @ 2.90GHz
+    SIMD instructions most likely to fit this hardware: AVX_512
+    SIMD instructions selected at GROMACS compile time: AVX_512
+
+  Hardware topology: Basic
+
+Reading file ara.tpr, VERSION 2016.4 (single precision)
+Changing nstlist from 10 to 40, rlist from 1.1 to 1.113
+
+Using 1 MPI thread
+Using 1 OpenMP thread 
+
+
+NOTE: Thread affinity setting failed. This can cause performance degradation.
+      If you think your settings are correct, ask on the gmx-users list.
+
+starting mdrun 'Protein in water'
+800000 steps,    400.0 ps.
+
+Writing final coordinates.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:     1871.549     1871.549      100.0
+                         31:11
+                 (ns/day)    (hour/ns)
+Performance:       18.466        1.300
+
+GROMACS reminds you: "My greatest contribution to the field of science is that I never entered it." (Colin Powell)
+
+jue feb  5 19:51:03 CET 2026
